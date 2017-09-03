@@ -4,5 +4,6 @@ class Four{
 		Scanner s= new Scanner(System.in);
 		double input=s.nextDouble();
 		System.out.println(input);
+		String st=new String();
 	}
 }
