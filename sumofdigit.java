@@ -1,7 +1,7 @@
 import java.math.*;
 class sumofdigit{
 	public static void main(String ar[]){
-		int n=4444,sum=0,i,j;
+		int n=4444,sum=0,i,j=0;
 		BigInteger x= new BigInteger("4444");
 //		BigInteger y= new BigInteger(
 		x=x.pow(n);
@@ -13,8 +13,8 @@ class sumofdigit{
 
 		for(i=0;i<s.length();i++){
 			j=s.charAt(i);
-			sum=sum+j;
+			sum=sum+j-48;
 		}
-		System.out.println(j);
+		System.out.println(sum);
 	}
 }
